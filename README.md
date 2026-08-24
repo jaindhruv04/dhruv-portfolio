@@ -1,6 +1,6 @@
 # Dhruv Jain - Developer Portfolio
 
-Personal portfolio website showcasing my software development projects, technical skills, experience, and leadership activities.
+Personal portfolio website showcasing my projects, technical skills, problem-solving work, and leadership experience.
 
 ## Live Demo
 
@@ -8,138 +8,170 @@ Personal portfolio website showcasing my software development projects, technica
 
 ## About
 
-I am a B.Tech Information Technology student at BPIT, graduating in 2028, with a focus on software engineering and full-stack web development.
+I am a B.Tech Information Technology student at BPIT, graduating in 2028, focused on software engineering and full-stack development.
 
-I build web applications using modern JavaScript technologies and work with frontend, backend, databases, REST APIs, and application architecture.
+I build practical web applications and work across frontend, backend, databases, REST APIs, and application architecture.
 
 ## Tech Stack
 
-### Frontend
 - React
 - JavaScript
 - HTML5
 - CSS3
 - Tailwind CSS
-
-### Backend
 - Node.js
 - Express.js
 - REST APIs
-- MVC Architecture
-
-### Databases
-- PostgreSQL
 - MongoDB
-- Prisma
 - Mongoose
-
-### Tools & Platforms
-- Git
-- GitHub
+- PostgreSQL
+- Prisma
+- Git & GitHub
 - Vite
-- Render
+- Framer Motion
+- Lucide React
 
 ## Projects
 
 ### CareerOS
 
-A full-stack career preparation platform designed to help students organize and track their technical interview preparation.
+A full-stack career and placement-preparation platform that brings DSA practice, company applications, interview notes, projects, and daily goals into one dashboard.
 
 **Features**
-- DSA problem tracking
-- Interview preparation tracking
-- Company tracking
-- Project tracking
-- Progress dashboard
+
+- Placement preparation dashboard
+- Company application tracker
+- DSA problem tracker
+- Interview journal
+- Project tracker
+- Progress summaries and quick insights
+- Search, filtering, priority, archive, restore, and delete workflows
+- Browser persistence using `localStorage`
+- Session-based daily goals
 - User authentication
 
 **Tech Stack**
 
-React, Node.js, Express.js, PostgreSQL, Prisma, REST APIs
+React, Vite, Tailwind CSS, React Router, Context API, Node.js, Express.js, Prisma, PostgreSQL
 
 **Architecture**
 
 ```text
 React
   ↓
-Express.js REST API
+Express REST API
   ↓
 Prisma
   ↓
 PostgreSQL
 ```
 
-**Live Demo**
+**Live Demo:** [CareerOS](https://careeros-dwui.onrender.com)
 
-[CareerOS](https://careeros-dwui.onrender.com)
-
----
+**Repository:** [GitHub](https://github.com/jaindhruv04/careeros)
 
 ### Solar
 
-A full-stack e-commerce web application built to demonstrate authentication, product browsing, filtering, shopping cart functionality, price calculations, and checkout flow.
+A full-stack e-commerce application built with server-side rendering and an MVC-style Express architecture.
 
 **Features**
-- User authentication
-- Product browsing
-- Product search and filtering
-- Shopping cart
-- Discount calculations
-- Price breakdown
-- Checkout flow
+
+- User registration and login
+- JWT-based authentication
+- HTTP-only authentication cookies
+- Password hashing with bcrypt
+- User and owner routes
+- Product management
+- Product browsing, search, and filtering
+- Shopping cart and price calculations
+- Sessions and flash messages
+- Server-side rendering with EJS
+- Environment-based configuration
 
 **Tech Stack**
 
-EJS, Node.js, Express.js, MongoDB, Mongoose
+EJS, HTML, CSS, JavaScript, Tailwind CSS, Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt
 
 **Architecture**
 
 ```text
 EJS
   ↓
-Express.js
+Express / MVC
   ↓
 Mongoose
   ↓
 MongoDB
 ```
 
-**Live Demo**
+**Live Demo:** [Solar](https://solar-9f6t.onrender.com)
 
-[SOLAR](https://solar-9f6t.onrender.com)
+**Repository:** [GitHub](https://github.com/jaindhruv04/solar)
 
-## Experience & Leadership
+## Skills
 
-### VECTOR AI Society
+### Languages
 
-Contributing to the development and organization of a student AI and technology society at BPIT.
+C++, JavaScript, SQL
 
-### Hackathon Organizer
+### Frontend
 
-Organized a college hackathon, contributing to event planning, coordination, and execution.
+React.js, HTML5, CSS3, Tailwind CSS, Vite
 
-## Education
+### Backend
 
-**B.Tech - Information Technology**
+Node.js, Express.js, REST APIs
 
-BPIT  
-Expected Graduation: 2028
+### Database
+
+MongoDB, Mongoose, PostgreSQL, Prisma
+
+### Fundamentals
+
+DSA, OOP, DBMS
+
+### Tools
+
+Git, GitHub, Postman, VS Code
 
 ## Problem Solving
 
-I actively practice Data Structures and Algorithms using C++ and work on improving problem-solving and software engineering fundamentals.
+I practice Data Structures and Algorithms using C++ and focus on building strong problem-solving and core computer science fundamentals.
+
+Topics include arrays, strings, linked lists, stacks, queues, hashing, trees, graphs, dynamic programming, searching, and sorting.
+
+## Experience & Leadership
+
+### Co-Founder - VECTOR AI Society · BPIT
+
+Working on establishing a student society focused on Artificial Intelligence, Machine Learning, and Generative AI through technical workshops, hackathons, and project-building sessions.
+
+### Student Coordinator - Training & Placement Cell · BPIT
+
+Coordinate placement-related communication, recruiter information, and student-facing activities.
+
+### Lead Organizer - NO//CODE: BUILD CHAOS Hackathon
+
+Led planning and execution of a hackathon involving **254 participants across 85 teams**, coordinating registrations, scheduling, logistics, and event execution.
+
+## Education
+
+**B.Tech in Information Technology**  
+BPIT, GGSIPU Delhi  
+Class of 2028
 
 ## Portfolio Features
 
-- Responsive design
-- Project showcase
-- Project screenshots
+- Responsive dark-themed design
+- Project screenshots and galleries
+- Project architecture displays
 - Technical skills section
+- Problem-solving section
 - Experience and leadership section
 - Resume download
 - GitHub and LinkedIn links
 - Contact section
-- Smooth animations
+- Framer Motion animations
 
 ## Getting Started
 
@@ -150,47 +182,46 @@ I actively practice Data Structures and Algorithms using C++ and work on improvi
 
 ### Installation
 
-Clone the repository:
-
 ```bash
 git clone https://github.com/jaindhruv04/dhruv-portfolio.git
-```
-
-Navigate to the project:
-
-```bash
 cd dhruv-portfolio
-```
-
-Install dependencies:
-
-```bash
 npm install
 ```
 
-Start the development server:
+### Development
 
 ```bash
 npm run dev
 ```
 
-### Build
+### Production Build
 
 ```bash
 npm run build
 ```
 
-### Deployment
+### Preview Production Build
 
-The portfolio is deployed using GitHub Pages.
+```bash
+npm run preview
+```
+
+### Deploy to GitHub Pages
 
 ```bash
 npm run deploy
 ```
 
+The `deploy` script builds the Vite application and publishes the `dist` directory using `gh-pages`.
+
 ## Contact
 
 **Dhruv Jain**
 
+- Email: [dhruvjain0412@gmail.com](mailto:dhruvjain0412@gmail.com)
 - GitHub: [jaindhruv04](https://github.com/jaindhruv04)
-- LinkedIn: [Dhruv Jain](https://www.linkedin.com/)
+- LinkedIn: [Dhruv Jain](https://linkedin.com/in/dhruvjain0412)
+
+---
+
+Built with React, Tailwind CSS, and Vite.
