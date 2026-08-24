@@ -1,16 +1,69 @@
-# React + Vite
+# Dhruv Jain - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio website showcasing my software development projects, technical skills, experience, and leadership activities.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Portfolio](https://jaindhruv04.github.io/dhruv-portfolio/)
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I am a B.Tech Information Technology student at BPIT, graduating in 2028, with a focus on software engineering and full-stack web development.
 
-## Expanding the Oxlint configuration
+I build web applications using modern JavaScript technologies and work with frontend, backend, databases, REST APIs, and application architecture.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tech Stack
+
+### Frontend
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Express.js
+- REST APIs
+- MVC Architecture
+
+### Databases
+- PostgreSQL
+- MongoDB
+- Prisma
+- Mongoose
+
+### Tools & Platforms
+- Git
+- GitHub
+- Vite
+- Render
+
+## Projects
+
+### CareerOS
+
+A full-stack career preparation platform designed to help students organize and track their technical interview preparation.
+
+**Features**
+- DSA problem tracking
+- Interview preparation tracking
+- Company tracking
+- Project tracking
+- Progress dashboard
+- User authentication
+
+**Tech Stack**
+
+React, Node.js, Express.js, PostgreSQL, Prisma, REST APIs
+
+**Architecture**
+
+```text
+React
+  ↓
+Express.js REST API
+  ↓
+Prisma
+  ↓
+PostgreSQL
