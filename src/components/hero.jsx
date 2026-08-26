@@ -28,8 +28,9 @@ function Hero() {
           </h2>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-neutral-400">
-            I build full-stack web applications using React, Node.js,
-            Express.js, PostgreSQL, MongoDB, and modern JavaScript.
+            I build full-stack applications with React, Node.js, Express.js,
+            PostgreSQL, and MongoDB, with a focus on backend systems,
+            problem-solving, and practical software engineering.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
