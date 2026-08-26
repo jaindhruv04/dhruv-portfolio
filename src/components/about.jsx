@@ -13,15 +13,15 @@ function About() {
           </p>
 
           <p>
-            I enjoy building practical applications and understanding how
-            software systems work from the frontend through the backend,
-            database, and APIs.
+            I build practical web applications across the frontend, backend,
+            APIs, and databases, and I care about understanding the engineering
+            decisions behind the systems I build.
           </p>
 
           <p>
-            I'm currently strengthening my Data Structures and Algorithms,
-            Object-Oriented Programming, DBMS, and software engineering
-            fundamentals while building projects with modern web technologies.
+            I'm currently strengthening Data Structures and Algorithms, OOP,
+            DBMS, and backend fundamentals while building and deploying
+            full-stack applications with modern JavaScript technologies.
           </p>
         </div>
 
@@ -29,15 +29,12 @@ function About() {
           <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-neutral-300">
             B.Tech IT · BPIT
           </span>
-
           <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-neutral-300">
             Class of 2028
           </span>
-
           <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-neutral-300">
             Full-Stack Development
           </span>
-
           <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-neutral-300">
             Data Structures & Algorithms
           </span>
