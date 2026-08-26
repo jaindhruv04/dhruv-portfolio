@@ -43,7 +43,7 @@ function Navbar() {
           </a>
 
           <a
-            href="https://linkedin.com/in/dhruvjain0412"
+            href="https://www.linkedin.com/in/dhruv-jain04/"
             target="_blank"
             rel="noreferrer"
             className="hidden text-neutral-400 transition hover:text-white sm:block"

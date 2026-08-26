@@ -32,7 +32,7 @@ function Contact() {
           </a>
 
           <a
-            href="https://linkedin.com/in/dhruvjain0412"
+            href="https://www.linkedin.com/in/dhruv-jain04/"
             target="_blank"
             rel="noreferrer"
             className="rounded-lg border border-white/10 px-5 py-3 transition hover:bg-white/10"

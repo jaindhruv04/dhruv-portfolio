@@ -21,15 +21,15 @@ const projects = [
     architecture: ["React", "Express REST API", "Prisma", "PostgreSQL"],
     screenshots: [
       {
-        src: "/projects/careeros-dashboard.png",
+        src: `${import.meta.env.BASE_URL}projects/careeros-dashboard.png`,
         label: "Dashboard",
       },
       {
-        src: "/projects/careeros-dsa.png",
+        src: `${import.meta.env.BASE_URL}projects/careeros-dsa.png`,
         label: "DSA Tracker",
       },
       {
-        src: "/projects/careeros-login.png",
+        src: `${import.meta.env.BASE_URL}projects/careeros-login.png`,
         label: "Authentication",
       },
     ],
@@ -52,15 +52,15 @@ const projects = [
     architecture: ["EJS", "Express / MVC", "Mongoose", "MongoDB"],
     screenshots: [
       {
-        src: "/projects/solar-shop.png",
+        src: `${import.meta.env.BASE_URL}projects/solar-shop.png`,
         label: "Shop",
       },
       {
-        src: "/projects/solar-cart.png",
+        src: `${import.meta.env.BASE_URL}projects/solar-cart.png`,
         label: "Cart",
       },
       {
-        src: "/projects/solar-auth.png",
+        src: `${import.meta.env.BASE_URL}projects/solar-auth.png`,
         label: "Authentication",
       },
     ],

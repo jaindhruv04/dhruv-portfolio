@@ -41,7 +41,7 @@ function Hero() {
             </a>
 
             <a
-              href="/Dhruv_Jain_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Dhruv_Jain_Resume.pdf`}
               download
               className="flex items-center gap-2 rounded-lg border border-white/20 px-5 py-3 font-medium transition hover:bg-white/10"
             >
@@ -68,7 +68,7 @@ function Hero() {
             <div className="absolute inset-0 rounded-3xl bg-white/10 blur-3xl" />
 
             <img
-              src="/profile.jpg"
+              src={`${import.meta.env.BASE_URL}profile.jpg`}
               alt="Dhruv Jain"
               className="relative h-72 w-72 rounded-3xl border border-white/10 object-cover object-[center_35%] shadow-2xl transition duration-500 hover:scale-[1.02] sm:h-80 sm:w-80"
             />
